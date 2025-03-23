@@ -1,0 +1,229 @@
+header{
+    
+    color: rgb(9, 40, 51);
+    padding: 2px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    background-image: url(portfolio_pic1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.navbar{
+padding : 1rem;
+position: sticky;
+
+}
+.nav-container{
+    max-width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-brand{
+    color:white;
+    text-decoration:none ;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.nav-links li a{
+color:  rgb(9, 40, 51);
+text-decoration:none;
+font-size:1.1rem;
+
+}
+.nav-links a:hover{
+    color: rgb(171, 209, 231);
+}
+.projects{
+    padding: 23px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(9, 40, 51);
+    background-color: rgb(186, 210, 231);
+    width: 1250px;
+    width: 90%;
+    margin-bottom: 40px;
+    color: rgb(9, 40, 51);
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: left; 
+}
+.projects h1{
+    font-size: 35px;
+}
+.project1-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.project-1 {
+  padding: 23px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(9, 40, 51);
+  background-color: rgb(186, 210, 231);
+  width: 90%;
+  margin-bottom: 40px;
+  color: rgb(9, 40, 51);
+  font-style: italic;
+}
+.project1-content {
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .project-1-img img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .feature-spotlight {
+    background-color: rgb(186, 210, 231);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(9, 40, 51);
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .spotlight-btn {
+    background-color: rgb(9, 40, 51);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .spotlight-btn:hover {
+    background-color: rgb(171, 209, 231);
+  }
+  
+  .spotlight-details {
+    margin-top: 20px;
+    display: none;
+    font-size: 14px;
+    color: rgb(9, 40, 51);
+  }
+  
+  
+  .project-1 p {
+    max-width: 500px;
+    font-size: 18px;
+    color: rgb(9, 40, 51);
+  }
+  
+.project2-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.project-2 {
+  padding: 23px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(9, 40, 51);
+  background-color: rgb(186, 210, 231);
+  width: 90%;
+  margin-bottom: 40px;
+  color: rgb(9, 40, 51);
+  font-style: italic;
+}
+
+.project-2-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.project-2-img img {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-2 p {
+  max-width: 500px;
+  font-size: 18px;
+  color: rgb(9, 40, 51);
+}
+
+.project3-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+.project-3 {
+    padding: 23px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(9, 40, 51);
+    background-color: rgb(186, 210, 231);
+    width: 90%;
+    margin-bottom: 40px;
+    color: rgb(9, 40, 51);
+    font-style: italic;
+ }
+.project3-content {
+      display: flex;
+      flex-direction: row-reverse; 
+      align-items: center;
+      gap: 30px;
+    }
+ .project-3-img img {
+      width: 500px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+ .project-3 p {
+      max-width: 500px;
+      font-size: 18px;
+      color: rgb(9, 40, 51);
+    }
+
+  footer {
+    background-color:rgb(9, 40, 51);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  .social-links a:hover {
+    color: rgb(186, 210, 223);
+  }

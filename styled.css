@@ -1,0 +1,80 @@
+header{
+    
+    color: rgb(9, 40, 51);
+    padding: 2px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    background-image: url(portfolio_pic1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.navbar{
+padding : 1rem;
+position: sticky;
+
+}
+.nav-container{
+    max-width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-brand{
+    color:white;
+    text-decoration:none ;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.nav-links li a{
+color:  rgb(9, 40, 51);
+text-decoration:none;
+font-size:1.1rem;
+
+}
+.nav-links a:hover{
+    color: rgb(171, 209, 231);
+}.about-me, .goals, .personal-story {
+    padding: 23px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(9, 40, 51);
+    background-color: rgb(186, 210, 231);
+    width: 90%; /* Responsive width */
+    max-width: 1250px; /* Keep it from getting too large */
+    text-align: left;
+    margin-bottom: 40px; /* Add spacing between sections */
+}
+
+/* Improve Container Responsiveness */
+.about-me-container, .goals-container, .personal-story-container {
+    font-size: 20px;
+    color: rgb(9, 40, 51);
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Responsive Adjustments */
+ 
+    .about-me, .goals, .personal-story {
+        width: 95%; /* Make use of the screen */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .about-me-container, .goals-container, .personal-story-container {
+        font-size: 16px; /* Smaller font size for smaller screens */
+    }
+
+
