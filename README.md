@@ -1,0 +1,4 @@
+### How my game works and how it reflects me:
+I chose to do a riddle game for my portfolio. In my portfolio, I express my love for puzzles, riddles were one of my favorite things to decipher growing up. My father supported this passion of mine and even went ahead and bought me a book of riddles. When I wasnt reading that book, I'd be watching videos from brightside among other youtube channels.
+
+Anyways, the riddle game is simple. You read the riddle and type in your answer. If you get it right, my big secret is revealed. If you’re wrong, you can try again. I put it to break the monotony of the website,It cant just all be about reading.
